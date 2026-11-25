@@ -1,79 +1,306 @@
 <div align="center">
-MODY UNIVERSITY OF SCIENCE AND TECHNOLOGY
-School of Engineering and Technology
-<br> <img width="154" height="157" alt="Mody_University_logo" src="https://github.com/user-attachments/assets/11e32514-7869-4f2d-afc9-b45171b58488" /> <br>
-DESIGN AND ANALYSIS OF ALGORITHM LABORATORY
-LAB RECORD
 
-<br><br>
+# MODY UNIVERSITY OF SCIENCE AND TECHNOLOGY
 
-Student Name: Navya Yadav <br>
-Enrollment Number: 240068
+## School of Engineering and Technology
 
 <br>
 
-Faculty Name: Dr. P. K. Bishnoi
+<img width="154" height="157" alt="Mody_University_logo" src="https://github.com/user-attachments/assets/11e32514-7869-4f2d-afc9-b45171b58488" />
+
+
+<br>
+
+# DESIGN AND ANALYSIS OF ALGORITHM LABORATORY
+
+### LAB RECORD
 
 <br><br>
 
-Mody University of Science and Technology <br> School of Engineering and Technology <br> Lakshmangarh, Rajasthan
+**Student Name:** Poorvaditya
+<br>
+**Enrollment Number:** 240153
+
+<br>
+
+**Faculty Name:** Dr. P. K. Bishnoi
+
+<br><br>
+
+**Mody University of Science and Technology**
+**School of Engineering and Technology**
+Lakshmangarh, Rajasthan
 
 </div>
 
-<a id="index"></a>
+---
 
-INDEX
-S. No.	Program	Link
-1	Menu Driven Program for Basic Concepts	Program 1
-2	Graph using Matplotlib	Program 2
-3	Time Execution	Program 3
-4	Memory Used	Program 4
-5	Comparing Complexities	Program 5
-6	Linear Search	Program 6
-7	Binary Search	Program 7
-8	Largest Element of Array	Program 8
-9	Smallest Element of Array	Program 9
-10	Bubble Sort - Ascending Order and Descending Order	Program 10
-11	Quick Sort	Program 11
-12	Merge Sort	Program 12
-13	Insertion Sort	Program 13
-14	Bucket Sort	Program 14
-15	Insert Element at the End of Array	Program 15
-16	Insert Element at Specified Position of Array	Program 16
-17	Delete Element at Specified Position of Array	Program 17
-18	Delete Element by Value in Array	Program 18
-19	Factorial using Recursion	Program 19
-20	Sum of Numbers using Recursion	Program 20
-21	Fibonacci Series using Recursion	Program 21
-22	Graph Representation using Classes and Objects	Program 22
-23	Represent Given Directed Graph	Program 23
-24	Graph Creation using User Input	Program 24
-25	Breadth First Search (BFS)	Program 25
-26	Depth First Search (DFS)	Program 26
-27	Bellman-Ford Algorithm	Program 27
-28	Dijkstra's Algorithm	Program 28
-29	Analysis of Time and Space Complexity of Dijkstra's, Bellman-Ford, Prim's and Kruskal's Algorithms	Program 29
-30	Comparison of Bellman-Ford and Dijkstra's Algorithms Using Graph Representation	Program 30
-31	Comparison of Prim's and Kruskal's Algorithms Using Graph Representation	Program 31
-32	Implementation of Prim's Algorithm to Find the Minimum Spanning Tree	Program 32
-33	Implementation of Kruskal's Algorithm to Find the Minimum Spanning Tree	Program 33
-34	Study of Minimum Spanning Tree (MST) and Its Construction Using Graph Algorithms	Program 34
-35	Implementation of Floyd-Warshall Algorithm	Program 35
-36	Floyd-Warshall Algorithm Using User Input	Program 36
-37	Finding the Minimum Distance Between Two Vertices Using Floyd-Warshall Algorithm	Program 37
-38	Comparison of Fibonacci Series Using Recursion and Dynamic Programming	Program 38
-39	0/1 Knapsack Problem Using Greedy Algorithm	Program 39
-40	Fractional Knapsack Problem Using Greedy Algorithm	Program 40
+<div style="page-break-after: always;"></div>
 
-<a id="program-1"></a>
+# INDEX
 
-Program 1: Menu Driven Program for Basic Concepts
-Aim
+<table style="width:100%; border-collapse:collapse;">
+  <tr>
+    <th style="width:10%;">S. No.</th>
+    <th style="width:65%;">Program</th>
+    <th style="width:25%;">Link</th>
+  </tr>
+
+  <tr>
+    <td>1</td>
+    <td>Menu Driven Program for Basic Concepts</td>
+    <td><a href="#program-1-menu-driven-program-for-basic-concepts">Program 1</a></td>
+  </tr>
+
+  <tr>
+    <td>2</td>
+    <td>Graph using Matplotlib</td>
+    <td><a href="#program-2-graph-using-matplotlib">Program 2</a></td>
+  </tr>
+
+  <tr>
+    <td>3</td>
+    <td>Time Execution</td>
+    <td><a href="#program-3-time-execution">Program 3</a></td>
+  </tr>
+
+  <tr>
+    <td>4</td>
+    <td>Memory Used</td>
+    <td><a href="#program-4-memory-used">Program 4</a></td>
+  </tr>
+
+  <tr>
+    <td>5</td>
+    <td>Comparing Complexities</td>
+    <td><a href="#program-5-comparing-complexities">Program 5</a></td>
+  </tr>
+
+  <tr>
+    <td>6</td>
+    <td>Linear Search</td>
+    <td><a href="#program-6-linear-search">Program 6</a></td>
+  </tr>
+
+  <tr>
+    <td>7</td>
+    <td>Binary Search</td>
+    <td><a href="#program-7-binary-search">Program 7</a></td>
+  </tr>
+
+  <tr>
+    <td>8</td>
+    <td>Largest Element of Array</td>
+    <td><a href="#program-8-largest-element-of-array">Program 8</a></td>
+  </tr>
+
+  <tr>
+    <td>9</td>
+    <td>Smallest Element of Array</td>
+    <td><a href="#program-9-smallest-element-of-array">Program 9</a></td>
+  </tr>
+
+  <tr>
+    <td>10</td>
+    <td>Bubble Sort - Ascending Order and Descending Order</td>
+    <td><a href="#program-10-ascending-order-and-descending-order">Program 10</a></td>
+  </tr>
+
+  <tr>
+    <td>11</td>
+    <td>Quick Sort</td>
+    <td><a href="#program-11-quick-sort">Program 11</a></td>
+  </tr>
+
+  <tr>
+    <td>12</td>
+    <td>Merge Sort</td>
+    <td><a href="#program-12-merge-sort">Program 12</a></td>
+  </tr>
+
+  <tr>
+    <td>13</td>
+    <td>Insertion Sort</td>
+    <td><a href="#program-13-insertion-sort">Program 13</a></td>
+  </tr>
+
+  <tr>
+    <td>14</td>
+    <td>Bucket Sort</td>
+    <td><a href="#program-14-bucket-sort">Program 14</a></td>
+  </tr>
+
+  <tr>
+    <td>15</td>
+    <td>Insert Element at the End of Array</td>
+    <td><a href="#program-15-insert-element-at-the-end-of-array">Program 15</a></td>
+  </tr>
+
+  <tr>
+    <td>16</td>
+    <td>Insert Element at Specified  Position of Array</td>
+    <td><a href="#program-16-insert-element-at-specified-position-of-array">Program 16</a></td>
+  </tr>
+
+  <tr>
+    <td>17</td>
+    <td>Delete Element at Specified  Position of Array</td>
+    <td><a href="#program-17-delete-element-at-specified-position-of-array">Program 17</a></td>
+  </tr>
+
+  <tr>
+    <td>18</td>
+    <td>Delete Element by Value in Array</td>
+    <td><a href="#program-18-delete-element-by-value-in-array">Program 18</a></td>
+  </tr>
+
+  <tr>
+    <td>19</td>
+    <td>Factorial using Recursion</td>
+    <td><a href="#program-19-factorial-using-recursion">Program 19</a></td>
+  </tr>
+
+  <tr>
+    <td>20</td>
+    <td>Sum of Numbers using Recursion</td>
+    <td><a href="#program-20-sum-of-numbers-using-recursion">Program 20</a></td>
+  </tr>
+
+  <tr>
+    <td>21</td>
+    <td>Fibonacci Series using Recursion</td>
+    <td><a href="#program-21-fibonacci-series-using-recursion">Program 21</a></td>
+  </tr>
+
+  <tr>
+    <td>22</td>
+    <td>Graph Representation using Classes and Objects</td>
+    <td><a href="#program-22-graph-representation-using-classes-and-objects">Program 22</a></td>
+  </tr>
+
+  <tr>
+    <td>23</td>
+    <td>Represent give Directed Graph</td>
+    <td><a href="#program-23-represent-given-directed-graph">Program 23</a></td>
+  </tr>
+
+  <tr>
+    <td>24</td>
+    <td>Graph Creation using User Input</td>
+    <td><a href="#program-24-graph-creation-using-user-input">Program 24</a></td>
+  </tr>
+
+  <tr>
+    <td>25</td>
+    <td>Breadth First Search (BFS)</td>
+    <td><a href="#program-25-breadth-first-search">Program 25</a></td>
+  </tr>
+
+  <tr>
+    <td>26</td>
+    <td>Depth First Search (DFS)</td>
+    <td><a href="#program-26-depth-first-search">Program 26</a></td>
+  </tr>
+
+  <tr>
+    <td>27</td>
+    <td>Bellman-Ford Algorithm</td>
+    <td><a href="#program-27-bellman-ford-algorithm">Program 27</a></td>
+  </tr>
+
+  <tr>
+    <td>28</td>
+    <td>Dijkstra's Algorithm</td>
+    <td><a href="#program-28-dijkstra-algorithm">Program 28</a></td>
+  </tr>
+
+  <tr>
+    <td>29</td>
+    <td>Analysis of Time and Space Complexity of Dijkstra’s, Bellman–Ford, Prim’s and Kruskal’s Algorithms</td>
+    <td><a href="#program-29-analysis-of-time-and-space-complexity-of-dijkstra’s-bellman–ford-prim’s-and-kruskal’s-algorithms">Program 29</a></td>
+  </tr>
+
+  <tr>
+    <td>30</td>
+    <td>Comparison of Bellman–Ford and Dijkstra’s Algorithms Using Graph Representation</td>
+    <td><a href="#program-30-comparison-of-bellman–ford-and-dijkstra’s-algorithms-using-graph-representation">Program 30</a></td>
+  </tr>
+
+  <tr>
+    <td>31</td>
+    <td>Comparison of Prim’s and Kruskal’s Algorithms Using Graph Representation</td>
+    <td><a href="#program-31-comparison-of-prim’s-and-kruskal’s-algorithms-using-graph-representation">Program 31</a></td>
+  </tr>
+
+  <tr>
+    <td>32</td>
+    <td>Implementation of Prim’s Algorithm to Find the Minimum Spanning Tree</td>
+    <td><a href="#program-32-implementation-of-prim’s-algorithm-to-find-the-minimum-spanning-tree">Program 32</a></td>
+  </tr>
+
+  <tr>
+    <td>33</td>
+    <td>Implementation of Kruskal’s Algorithm to Find the Minimum Spanning Tree</td>
+    <td><a href="#program-33-implementation-of-kruskal’s-algorithm-to-find-the-minimum-spanning-tree">Program 33</a></td>
+  </tr>
+
+  <tr>
+    <td>34</td>
+    <td>Study of Minimum Spanning Tree (MST) and Its Construction Using Graph Algorithms</td>
+    <td><a href="#program-34-stud-of-minimum-spanning-tree-and-its-construction-using-graph-algorithms">Program 34</a></td>
+  </tr>
+
+  <tr>
+    <td>35</td>
+    <td>Implementation of Floyd–Warshall Algorithm</td>
+    <td><a href="#program-35-implementatio-of-floyd–warshall-algorithm">Program 35</a></td>
+  </tr>
+
+  <tr>
+    <td>36</td>
+    <td>Floyd–Warshall Algorithm Using User Input</td>
+    <td><a href="#program-36-floyd–warshall-algorithm-using-user-input">Program 36</a></td>
+  </tr>
+
+  <tr>
+    <td>37</td>
+    <td>Finding the Minimum Distance Between Two Vertices Using Floyd–Warshall Algorithm</td>
+    <td><a href="#program-37-finding-the-minimum-distance-between-two-vertices-using-floyd–warshall-algorithm">Program 37</a></td>
+  </tr>
+
+  <tr>
+    <td>38</td>
+    <td>Comparison of Fibonacci Series Using Recursion and Dynamic Programming</td>
+    <td><a href="#program-38-comparison-of-fibonacci-series-using-recursion-and-dynamic-programming">Program 38</a></td>
+  </tr>
+
+  <tr>
+    <td>39</td>
+    <td>0/1 Knapsack Problem Using Greedy Algorithm</td>
+    <td><a href="#program-39-0/1-knapsack-problem-using-greedy-algorithm">Program 39</a></td>
+  </tr>
+
+  <tr>
+    <td>40</td>
+    <td>Fractional Knapsack Problem Using Greedy Algorithm</td>
+    <td><a href="#program-40-fractional-knapsack-problem-using-greedy-algorithm">Program 40</a></td>
+  </tr>
+
+</table>
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 1: Menu Driven Program for Basic Concepts
+
+## Aim
 
 Write a Menu Driven Python Program for basic concepts
 
-Program
-python
+## Program
+
+```python
 while True:
     print("\n----- MENU -----")
     print("1. List")
@@ -109,20 +336,30 @@ while True:
 
     else:
         print("Invalid Choice")
-Sample Output
+```
+
+## Sample Output
+
 <img width="322" height="755" alt="image" src="https://github.com/user-attachments/assets/75c9bcec-9870-420e-9742-9fcbce2405c0" />
 
-Back to Index
 
-<a id="program-2"></a>
 
-Program 2: Graph using Matplotlib
-Aim
+
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 2: Graph using Matplotlib
+
+## Aim
 
 To write a Python program to plot a graph using the Matplotlib library and demonstrate the graphical representation of data.
 
-Program
-python
+## Program
+
+```python
 import matplotlib.pyplot as plt
 
 x = [1, 2, 3, 4, 5]
@@ -134,20 +371,27 @@ plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
 plt.grid(True)
 plt.show()
-Sample Output
+```
+
+## Sample Output
 <img width="807" height="702" alt="image" src="https://github.com/user-attachments/assets/b53c2148-2ea4-4625-bc6b-8171c2ba3ca9" />
 
-Back to Index
 
-<a id="program-3"></a>
+[Back to Index](#index)
 
-Program 3: Time Execution
-Aim
+---
 
-To measure the execution time of a Python program using the time module and understand the time required to execute a given operation.
+<div style="page-break-after: always;"></div>
 
-Program
-python
+# Program 3: Time Execution
+
+## Aim
+
+ To measure the execution time of a Python program using the time module and understand the time required to execute a given operation.
+
+## Program
+
+```python
 import time
 
 n = 1000000
@@ -161,20 +405,28 @@ end = time.perf_counter()
 
 print("Sum:", total)
 print("Execution time:", end - start, "seconds")
-Sample Output
+
+```
+
+## Sample Output
 <img width="492" height="46" alt="image" src="https://github.com/user-attachments/assets/94afebbb-f652-4f51-b996-593817be0fd2" />
 
-Back to Index
 
-<a id="program-4"></a>
+[Back to Index](#index)
 
-Program 4: Memory Used
-Aim
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 4: Memory Used
+
+## Aim
 
 To measure the memory consumed by a Python program while performing operations using the tracemalloc module.
 
-Program
-python
+## Program
+
+```python
 import tracemalloc
 
 tracemalloc.start()
@@ -188,20 +440,28 @@ print("Current memory:", current, "bytes")
 print("Peak memory:", peak, "bytes")
 
 tracemalloc.stop()
-Sample Output
+```
+
+## Sample Output
 <img width="345" height="46" alt="image" src="https://github.com/user-attachments/assets/ce40bbc9-067d-44c1-a1a4-18a3a11c2449" />
 
-Back to Index
 
-<a id="program-5"></a>
 
-Program 5: Comparing Complexities
-Aim
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 5: Comparing Complexities
+
+## Aim
 
 To demonstrate common time complexities—constant, logarithmic, linear, linearithmic, quadratic, and exponential—using simple Python examples.
 
-Program
-python
+## Program
+
+```python
 def constant(n):
     print("Constant: O(1)", n)
 
@@ -244,20 +504,29 @@ linear(n)
 linearithmic(n)
 quadratic(n)
 exponential(n)
-Sample Output
+
+```
+
+## Sample Output
 <img width="310" height="127" alt="image" src="https://github.com/user-attachments/assets/266fcba2-f3bc-4b43-8980-a8dfda0d8846" />
 
-Back to Index
 
-<a id="program-6"></a>
 
-Program 6: Linear Search
-Aim
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 6: Linear Search
+
+## Aim
 
 To write a Python program to implement linear search for finding a specified element in an array by checking each element sequentially.
 
-Program
-python
+## Program
+
+```python
 arr = list(map(int, input("Enter array elements: ").split()))
 key = int(input("Enter element to search: "))
 
@@ -267,20 +536,28 @@ for i in range(len(arr)):
         break
 else:
     print("Element not found.")
-Sample Output
+```
+
+## Sample Output
 <img width="537" height="73" alt="image" src="https://github.com/user-attachments/assets/b8990fff-da45-4453-8b14-9daa8175e373" />
 
-Back to Index
 
-<a id="program-7"></a>
 
-Program 7: Binary Search
-Aim
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 7: Binary Search
+
+## Aim
 
 To write a Python program to implement binary search for locating a specified element in a sorted array by repeatedly dividing the search interval into halves.
 
-Program
-python
+## Program
+
+```python
 arr = list(map(int, input("Enter sorted array: ").split()))
 key = int(input("Enter element to search: "))
 
@@ -299,20 +576,26 @@ while low <= high:
         high = mid - 1
 else:
     print("Element not found.")
-Sample Output
+```
+
+## Sample Output
 <img width="576" height="77" alt="image" src="https://github.com/user-attachments/assets/bc7473af-fe09-448f-85f0-049fec706c99" />
 
-Back to Index
 
-<a id="program-8"></a>
+[Back to Index](#index)
 
-Program 8: Largest Element of Array
-Aim
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 8: Largest Element of Array
+## Aim
 
 To write a Python program to find and display the largest element present in an array.
 
-Program
-python
+## Program
+
+```python
 arr = list(map(int, input("Enter array elements: ").split()))
 
 largest = arr[0]
@@ -322,20 +605,28 @@ for num in arr:
         largest = num
 
 print("Largest element:", largest)
-Sample Output
+```
+
+## Sample Output
 <img width="533" height="47" alt="image" src="https://github.com/user-attachments/assets/be999c2a-52b7-4060-8f91-6874575a18d2" />
 
-Back to Index
 
-<a id="program-9"></a>
 
-Program 9: Smallest Element of Array
-Aim
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 9:  Smallest Element of Array
+
+## Aim
 
 To write a Python program to find and display the smallest element present in an array.
 
-Program
-python
+## Program
+
+```python
 arr = list(map(int, input("Enter array elements: ").split()))
 
 smallest = arr[0]
@@ -345,20 +636,28 @@ for num in arr:
         smallest = num
 
 print("Smallest element:", smallest)
-Sample Output
+```
+
+## Sample Output
 <img width="625" height="50" alt="image" src="https://github.com/user-attachments/assets/18c8c8c0-a420-41f9-9ea3-ba4054c7c44e" />
 
-Back to Index
 
-<a id="program-10"></a>
 
-Program 10: Bubble Sort — Ascending and Descending Order
-Aim
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 10:  Bubble Sort — Ascending and Descending Order
+
+## Aim
 
 To write a Python program to implement bubble sort for arranging array elements in both ascending and descending order by repeatedly comparing and swapping adjacent elements.
 
-Program
-python
+## Program
+
+```python
 arr = list(map(int, input("Enter array elements: ").split()))
 
 asc = arr.copy()
@@ -377,20 +676,28 @@ for i in range(n - 1):
 
 print("Ascending order:", asc)
 print("Descending order:", desc)
-Sample Output
+```
+
+## Sample Output
 <img width="633" height="77" alt="image" src="https://github.com/user-attachments/assets/dc7caa62-0559-4364-9658-e0114c6b9513" />
 
-Back to Index
 
-<a id="program-11"></a>
 
-Program 11: Quick Sort
-Aim
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 11: Quick Sort
+
+## Aim
 
 To write a Python program to implement the quick sort algorithm for sorting array elements by selecting a pivot and partitioning the array around it.
 
-Program
-python
+## Program
+
+```python
 def quick_sort(arr):
     if len(arr) <= 1:
         return arr
@@ -406,20 +713,27 @@ def quick_sort(arr):
 arr = list(map(int, input("Enter array elements: ").split()))
 
 print("Sorted array:", quick_sort(arr))
-Sample Output
+```
+
+## Sample Output
 <img width="632" height="50" alt="image" src="https://github.com/user-attachments/assets/c99a92c8-ec16-4a35-ab84-e66064bf874d" />
 
-Back to Index
 
-<a id="program-12"></a>
 
-Program 12: Merge Sort
-Aim
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 12:  Merge Sort
+## Aim
 
 To write a Python program to implement merge sort using the divide-and-conquer technique to divide an array into smaller subarrays, sort them, and merge them into a sorted array.
 
-Program
-python
+## Program
+
+```python
 def merge_sort(arr):
     if len(arr) <= 1:
         return arr
@@ -447,20 +761,28 @@ def merge_sort(arr):
 arr = list(map(int, input("Enter array elements: ").split()))
 
 print("Sorted array:", merge_sort(arr))
-Sample Output
+```
+
+## Sample Output
 <img width="546" height="47" alt="image" src="https://github.com/user-attachments/assets/9dc0f95f-22f4-4fa8-9373-83380652708f" />
 
-Back to Index
 
-<a id="program-13"></a>
 
-Program 13: Insertion Sort
-Aim
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 13:  Insertion Sort
+
+## Aim
 
 To write a Python program to implement insertion sort by inserting each element into its correct position within the already sorted portion of an array.
 
-Program
-python
+## Program
+
+```python
 arr = list(map(int, input("Enter array elements: ").split()))
 
 for i in range(1, len(arr)):
@@ -474,20 +796,27 @@ for i in range(1, len(arr)):
     arr[j + 1] = key
 
 print("Sorted array:", arr)
-Sample Output
+```
+
+## Sample Output
 <img width="546" height="60" alt="image" src="https://github.com/user-attachments/assets/d5aca296-2dec-4864-af59-bc96984513e1" />
 
-Back to Index
 
-<a id="program-14"></a>
 
-Program 14: Bucket Sort
-Aim
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 14: Bucket Sort
+## Aim
 
 To write a Python program to implement bucket sort by distributing elements into buckets, sorting individual buckets, and combining them to obtain the sorted array.
 
-Program
-python
+## Program
+
+```python
 def bucket_sort(arr):
     if not arr:
         return arr
@@ -516,40 +845,55 @@ def bucket_sort(arr):
 arr = list(map(float, input("Enter numbers: ").split()))
 
 print("Sorted array:", bucket_sort(arr))
-Sample Output
+```
+
+## Sample Output
 <img width="773" height="51" alt="image" src="https://github.com/user-attachments/assets/65961b08-ab39-45bd-94dd-4e8367efb031" />
 
-Back to Index
 
-<a id="program-15"></a>
 
-Program 15: Insert Element at the End of Array
-Aim
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 15: Insert Element at the End of Array
+
+## Aim
 
 To write a Python program to insert a new element at the end of an array and display the updated array.
 
-Program
-python
+## Program
+
+```python
 arr = list(map(int, input("Enter array elements: ").split()))
 element = int(input("Enter element to insert: "))
 
 arr.append(element)
 
 print("Updated array:", arr)
-Sample Output
+```
+
+## Sample Output
 <img width="567" height="73" alt="image" src="https://github.com/user-attachments/assets/cb041de9-4df9-4203-9dcc-431ade94ecbd" />
 
-Back to Index
 
-<a id="program-16"></a>
 
-Program 16: Insert Element at Specified Position of Array
-Aim
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 16: Insert Element at Specified Position of Array
+## Aim
 
 To write a Python program to insert an element at a specified position in an array and display the resulting array.
 
-Program
-python
+## Program
+
+```python
 arr = list(map(int, input("Enter array elements: ").split()))
 element = int(input("Enter element to insert: "))
 pos = int(input("Enter position (starting from 1): "))
@@ -559,20 +903,27 @@ if 1 <= pos <= len(arr) + 1:
     print("Updated array:", arr)
 else:
     print("Invalid position.")
-Sample Output
+```
+
+## Sample Output
 <img width="537" height="95" alt="image" src="https://github.com/user-attachments/assets/bb319982-9537-494c-ac4b-1894ca143268" />
 
-Back to Index
 
-<a id="program-17"></a>
+[Back to Index](#index)
 
-Program 17: Delete Element at Specified Position of Array
-Aim
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 17: Delete Element at Specified Position of Array
+
+## Aim
 
 To write a Python program to delete an element from a specified position in an array and display the updated array.
 
-Program
-python
+## Program
+
+```python
 arr = list(map(int, input("Enter array elements: ").split()))
 pos = int(input("Enter position to delete (starting from 1): "))
 
@@ -582,20 +933,27 @@ if 1 <= pos <= len(arr):
     print("Updated array:", arr)
 else:
     print("Invalid position.")
-Sample Output
+```
+
+## Sample Output
 <img width="630" height="102" alt="image" src="https://github.com/user-attachments/assets/0a0294cb-0f18-4550-8da0-9c5faffdba67" />
 
-Back to Index
 
-<a id="program-18"></a>
+[Back to Index](#index)
 
-Program 18: Delete Element by Value in Array
-Aim
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 18:  Delete Element by Value in Array
+
+## Aim
 
 To write a Python program to search for a specified value in an array, delete its first occurrence if present, and display the updated array.
 
-Program
-python
+## Program
+
+```python
 arr = list(map(int, input("Enter array elements: ").split()))
 value = int(input("Enter value to delete: "))
 
@@ -604,20 +962,27 @@ if value in arr:
     print("Updated array:", arr)
 else:
     print("Element not found.")
-Sample Output
+```
+
+## Sample Output
 <img width="485" height="75" alt="image" src="https://github.com/user-attachments/assets/12d65db2-af5e-45da-8407-1bcdb859d02d" />
 
-Back to Index
 
-<a id="program-19"></a>
+[Back to Index](#index)
 
-Program 19: Factorial Using Recursion
-Aim
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 19:  Factorial Using Recursion
+
+## Aim
 
 To write a Python program to calculate the factorial of a non-negative integer using recursion and demonstrate the concept of a recursive function.
 
-Program
-python
+## Program
+
+```python
 def factorial(n):
     if n == 0 or n == 1:
         return 1
@@ -629,20 +994,29 @@ if n < 0:
     print("Factorial is not defined for negative integers.")
 else:
     print("Factorial:", factorial(n))
-Sample Output
+```
+
+## Sample Output
+
 <img width="802" height="40" alt="image" src="https://github.com/user-attachments/assets/4f106416-8e3b-4da7-af0d-d78bfadd9d56" />
 
-Back to Index
 
-<a id="program-20"></a>
 
-Program 20: Sum of Numbers Using Recursion
-Aim
+[Back to Index](#index)
 
-To write a Python program to calculate the sum of the first n natural numbers using recursion.
+---
 
-Program
-python
+<div style="page-break-after: always;"></div>
+
+# Program 20:  Sum of Numbers Using Recursion
+
+## Aim
+
+To write a Python program to calculate the sum of the first \(n\) natural numbers using recursion.
+
+## Program
+
+```python
 def sum_numbers(n):
     if n <= 0:
         return 0
@@ -654,20 +1028,28 @@ if n < 0:
     print("Enter a non-negative integer.")
 else:
     print("Sum:", sum_numbers(n))
-Sample Output
+```
+
+## Sample Output
 <img width="395" height="55" alt="image" src="https://github.com/user-attachments/assets/adf5a4a1-8da3-45cf-93f7-21e40ad20847" />
 
-Back to Index
 
-<a id="program-21"></a>
 
-Program 21: Fibonacci Series Using Recursion
-Aim
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 21: Fibonacci Series Using Recursion
+
+## Aim
 
 To write a Python program to generate the Fibonacci series using recursion, in which each term is obtained by adding the two preceding terms.
 
-Program
-python
+## Program
+
+```python
 def fibonacci(n):
     if n <= 1:
         return n
@@ -681,20 +1063,28 @@ else:
     for i in range(n):
         print(fibonacci(i), end=" ")
     print()
-Sample Output
+```
+
+## Sample Output
 <img width="400" height="60" alt="image" src="https://github.com/user-attachments/assets/8e1d1f53-6111-470f-8691-2b2d60d4bed0" />
 
-Back to Index
 
-<a id="program-22"></a>
 
-Program 22: Graph Representation Using Classes and Objects
-Aim
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 22: Graph Representation Using Classes and Objects
+
+## Aim
 
 To write a Python program to represent a graph using classes and objects by implementing an adjacency list to store vertices and their connections.
 
-Program
-python
+## Program
+
+```python
 class Graph:
     def __init__(self):
         self.graph = {}
@@ -722,20 +1112,32 @@ g.add_edge('B', 'D')
 
 print("Graph representation:")
 g.display()
-Sample Output
+```
+
+## Sample Output
+
 <img width="292" height="125" alt="image" src="https://github.com/user-attachments/assets/f92b9931-1d85-4352-900e-a4a50db53231" />
 
-Back to Index
 
-<a id="program-23"></a>
 
-Program 23: Represent Given Directed Graph
-Aim
+
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 23: Represent Given Directed Graphs
+
+## Aim
 
 To write a Python program to represent a directed graph using an adjacency list, where each edge indicates a connection from one vertex to another in a specified direction.
 
-Program
-python
+Write a Menu Driven Python Program for basic concepts
+
+## Program
+
+```python
 graph = {
     'A': ['B', 'C'],
     'B': ['D'],
@@ -746,20 +1148,30 @@ graph = {
 print("Directed Graph:")
 for vertex, edges in graph.items():
     print(vertex, "->", edges)
-Sample Output
+```
+
+## Sample Output
+
 <img width="211" height="130" alt="image" src="https://github.com/user-attachments/assets/f3ef02a5-8e43-4fa4-94af-ba3bab0f3ab1" />
 
-Back to Index
 
-<a id="program-24"></a>
 
-Program 24: Graph Creation Using User Input
-Aim
+
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 24: Graph Creation Using User Input
+
+## Aim
 
 To write a Python program to create a graph using user input by accepting the vertices and edges and representing the graph through an adjacency list.
 
-Program
-python
+## Program
+
+```python
 graph = {}
 
 n = int(input("Enter number of vertices: "))
@@ -782,20 +1194,27 @@ for i in range(m):
 print("Graph representation:")
 for vertex, edges in graph.items():
     print(vertex, ":", edges)
-Sample Output
+```
+
+## Sample Output
 <img width="387" height="380" alt="image" src="https://github.com/user-attachments/assets/e3834fac-9dde-4f8e-8e0d-22ee8b89e71b" />
 
-Back to Index
 
-<a id="program-25"></a>
+[Back to Index](#index)
 
-Program 25: Breadth First Search (BFS)
-Aim
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 25: Breadth First Search (BFS)
+
+## Aim
 
 To write a Python program to implement Breadth First Search (BFS) for traversing a graph by visiting vertices level by level using a queue.
 
-Program
-python
+## Program
+
+```python
 from collections import deque
 
 def bfs(graph, start):
@@ -824,20 +1243,29 @@ graph = {
 print("BFS Traversal:")
 bfs(graph, 'A')
 print()
-Sample Output
+```
+
+## Sample Output
 <img width="202" height="51" alt="image" src="https://github.com/user-attachments/assets/2cbd0aa9-07b4-4242-b918-21b11a24e607" />
 
-Back to Index
 
-<a id="program-26"></a>
 
-Program 26: Depth First Search (DFS)
-Aim
+
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 26: Depth First Search (DFS)
+
+## Aim
 
 To write a Python program to implement Depth First Search (DFS) for traversing a graph by exploring each branch as deeply as possible before backtracking.
 
-Program
-python
+## Program
+
+```python
 def dfs(graph, vertex, visited):
     visited.add(vertex)
     print(vertex, end=" ")
@@ -858,20 +1286,29 @@ graph = {
 print("DFS Traversal:")
 dfs(graph, 'A', set())
 print()
-Sample Output
+```
+
+## Sample Output
 <img width="208" height="50" alt="image" src="https://github.com/user-attachments/assets/0966fd0a-ad1c-48a6-b735-841155c1b75c" />
 
-Back to Index
 
-<a id="program-27"></a>
 
-Program 27: Bellman-Ford Algorithm
-Aim
+
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 27: Bellman-Ford Algorithm
+
+## Aim
 
 To write a Python program to implement the Bellman-Ford algorithm for finding the shortest paths from a single source vertex to all other vertices in a weighted graph, including graphs with negative edge weights, and detecting reachable negative-weight cycles.
 
-Program
-python
+## Program
+
+```python
 def bellman_ford(vertices, edges, source):
     distance = {v: float('inf') for v in vertices}
     distance[source] = 0
@@ -910,20 +1347,28 @@ edges = [
 ]
 
 bellman_ford(vertices, edges, 'A')
-Sample Output
+```
+
+## Sample Output
 <img width="360" height="122" alt="image" src="https://github.com/user-attachments/assets/ebaf5455-b470-4842-a9f4-188a85e6512a" />
 
-Back to Index
 
-<a id="program-28"></a>
 
-Program 28: Dijkstra's Algorithm
-Aim
+
+[Back to Index](#index)
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 28: Dijkstra's Algorithm
+
+## Aim
 
 To write a Python program to implement Dijkstra's algorithm for finding the shortest paths from a source vertex to all other reachable vertices in a weighted graph with non-negative edge weights.
+## Program
 
-Program
-python
+```python
 import heapq
 
 def dijkstra(graph, source):
@@ -958,20 +1403,29 @@ graph = {
 }
 
 dijkstra(graph, 'A')
-Sample Output
+```
+
+## Sample Output
 <img width="370" height="126" alt="image" src="https://github.com/user-attachments/assets/8d06cc4e-0334-479e-af10-b023d5ee97a0" />
 
-Back to Index
 
-<a id="program-29"></a>
 
-Program 29: Analysis of Time and Space Complexity of Dijkstra's, Bellman-Ford, Prim's and Kruskal's Algorithms
-Aim
 
-To study and analyze the time and space complexities of Dijkstra's, Bellman-Ford, Prim's and Kruskal's algorithms.
+[Back to Index](#index)
 
-Program
-python
+---
+
+
+<div style="page-break-after: always;"></div>
+
+# Program 29: Analysis of Time and Space Complexity of Dijkstra’s, Bellman–Ford, Prim’s and Kruskal’s Algorithms
+
+## Aim
+
+To study and analyze the time and space complexities of Dijkstra’s, Bellman–Ford, Prim’s and Kruskal’s algorithms.
+## Program
+
+```python
 def analyze_complexity():
     algorithms = {
         "Dijkstra": {
@@ -1002,20 +1456,27 @@ def analyze_complexity():
 
 
 analyze_complexity()
-Sample Output
+```
+
 <img width="612" height="453" alt="image" src="https://github.com/user-attachments/assets/6990aeb1-dc75-48f3-a4d5-f6ba31d81746" />
 
-Back to Index
 
-<a id="program-30"></a>
 
-Program 30: Comparison of Bellman-Ford and Dijkstra's Algorithms Using Graph Representation
-Aim
+[Back to Index](#index)
 
-To implement and compare Dijkstra's and Bellman-Ford algorithms for finding the shortest paths from a source vertex in a weighted graph.
+---
 
-Program
-python
+<div style="page-break-after: always;"></div>
+
+# Program 30: Comparison of Bellman–Ford and Dijkstra’s Algorithms Using Graph Representation
+
+## Aim
+
+To implement and compare Dijkstra’s and Bellman–Ford algorithms for finding the shortest paths from a source vertex in a weighted graph.
+
+## Program
+
+```python
 import heapq
 
 # Graph represented as an edge list
@@ -1085,20 +1546,27 @@ source = 0
 print("Dijkstra's Algorithm:", dijkstra(V, edges, source))
 print("Bellman-Ford Algorithm:",
       bellman_ford(V, edges, source))
-Sample Output
+```
 <img width="555" height="52" alt="image" src="https://github.com/user-attachments/assets/e16c6e67-34c8-4462-b349-888e21816c3f" />
 
-Back to Index
 
-<a id="program-31"></a>
 
-Program 31: Comparison of Prim's and Kruskal's Algorithms Using Graph Representation
-Aim
+[Back to Index](#index)
 
-To implement and compare Prim's and Kruskal's algorithms for finding the Minimum Spanning Tree of a connected, weighted, undirected graph.
+---
 
-Program
-python
+
+<div style="page-break-after: always;"></div>
+
+# Program 31: Comparison of Prim’s and Kruskal’s Algorithms Using Graph Representation
+
+## Aim
+
+To implement and compare Prim’s and Kruskal’s algorithms for finding the Minimum Spanning Tree of a connected, weighted, undirected graph.
+
+## Program
+
+```python
 import heapq
 
 V = 5
@@ -1192,20 +1660,26 @@ for name, result in [
     print("\n", name, "Algorithm")
     print("Selected edges:", mst)
     print("Total MST weight:", total)
-Sample Output
+```
+
 <img width="790" height="165" alt="image" src="https://github.com/user-attachments/assets/1d098290-fc13-4997-baba-b3621c82062b" />
 
-Back to Index
 
-<a id="program-32"></a>
+[Back to Index](#index)
 
-Program 32: Implementation of Prim's Algorithm to Find the Minimum Spanning Tree
-Aim
+---
 
-To write a Python program to implement Prim's algorithm and find the Minimum Spanning Tree (MST) of a connected, weighted, undirected graph.
+<div style="page-break-after: always;"></div>
 
-Program
-python
+# Program 32: Implementation of Prim’s Algorithm to Find the Minimum Spanning Tree
+
+## Aim
+
+To write a Python program to implement Prim’s algorithm and find the Minimum Spanning Tree (MST) of a connected, weighted, undirected graph.
+
+## Program
+
+```python
 import heapq
 
 V = 5
@@ -1255,20 +1729,25 @@ def prim_mst(graph, V):
 
 
 prim_mst(graph, V)
-Sample Output
+```
 <img width="440" height="161" alt="image" src="https://github.com/user-attachments/assets/35ea4bd7-39db-43fb-9ace-d62b8169baf2" />
 
-Back to Index
 
-<a id="program-33"></a>
+[Back to Index](#index)
 
-Program 33: Implementation of Kruskal's Algorithm to Find the Minimum Spanning Tree
-Aim
+---
 
-To write a Python program to implement Kruskal's algorithm and find the Minimum Spanning Tree of a connected, weighted, undirected graph.
+<div style="page-break-after: always;"></div>
 
-Program
-python
+# Program 33: Implementation of Kruskal’s Algorithm to Find the Minimum Spanning Tree
+
+## Aim
+
+To write a Python program to implement Kruskal’s algorithm and find the Minimum Spanning Tree of a connected, weighted, undirected graph.
+
+## Program
+
+```python
 V = 5
 
 edges = [
@@ -1333,20 +1812,25 @@ def kruskal_mst(V, edges):
 
 
 kruskal_mst(V, edges)
-Sample Output
+```
 <img width="440" height="157" alt="image" src="https://github.com/user-attachments/assets/37392d0b-a732-4e5f-a908-588deae5e9eb" />
 
-Back to Index
 
-<a id="program-34"></a>
+[Back to Index](#index)
 
-Program 34: Study of Minimum Spanning Tree (MST) and Its Construction
-Aim
+---
+
+<div style="page-break-after: always;"></div>
+
+# Program 34: Study of Minimum Spanning Tree (MST) and Its Construction
+
+## Aim
 
 To understand the concept of a Minimum Spanning Tree and construct an MST of a connected, weighted, undirected graph using Python.
 
-Program
-python
+## Program
+
+```python
 # Constructing an MST using Kruskal's algorithm
 
 V = 5
@@ -1399,20 +1883,26 @@ for u, v, weight in mst:
     print(f"{u} - {v} : {weight}")
 
 print("Minimum Total Weight:", total_weight)
-Sample Output
+```
 <img width="376" height="147" alt="image" src="https://github.com/user-attachments/assets/1a216a18-f66b-4783-88c7-5142d0516f3d" />
 
-Back to Index
 
-<a id="program-35"></a>
 
-Program 35: Implementation of Floyd-Warshall Algorithm
-Aim
+[Back to Index](#index)
 
-To write a Python program to implement the Floyd-Warshall algorithm using an adjacency matrix to find the shortest distances between every pair of vertices in a weighted, directed graph.
+---
 
-Program
-python
+
+<div style="page-break-after: always;"></div>
+
+# Program 35: Implementation of Floyd–Warshall Algorithm
+## Aim
+
+To write a Python program to implement the Floyd–Warshall algorithm using an adjacency matrix to find the shortest distances between every pair of vertices in a weighted, directed graph.
+
+## Program
+
+```python
 INF = float('inf')
 
 dist = [
@@ -1436,20 +1926,26 @@ print("Shortest Distance Matrix:")
 
 for row in dist:
     print(row)
-Sample Output
+```
 <img width="355" height="125" alt="image" src="https://github.com/user-attachments/assets/a5fbccf0-b1e1-42d2-ac5c-28d8a8cf85ab" />
 
-Back to Index
 
-<a id="program-36"></a>
+[Back to Index](#index)
 
-Program 36: Floyd-Warshall Algorithm Using User Input
-Aim
+---
 
-To modify the Floyd-Warshall algorithm to accept the number of vertices and the adjacency matrix from the user, and calculate the shortest distances between all pairs of vertices.
 
-Program
-python
+<div style="page-break-after: always;"></div>
+
+# Program 36: Floyd–Warshall Algorithm Using User Input
+
+## Aim
+
+To modify the Floyd–Warshall algorithm to accept the number of vertices and the adjacency matrix from the user, and calculate the shortest distances between all pairs of vertices.
+
+## Program
+
+```python
 INF = float('inf')
 
 n = int(input("Enter number of vertices: "))
@@ -1482,20 +1978,27 @@ for row in dist:
         "INF" if x == INF else int(x)
         for x in row
     ])
-Sample Output
+```
 <img width="623" height="277" alt="image" src="https://github.com/user-attachments/assets/5488b954-328e-4128-b38a-b763104539d8" />
 
-Back to Index
 
-<a id="program-37"></a>
 
-Program 37: Finding the Minimum Distance Between Two Vertices Using Floyd-Warshall Algorithm
-Aim
+[Back to Index](#index)
 
-To write a Python program that accepts a weighted graph and two vertices from the user, then displays the minimum distance between the selected vertices using the Floyd-Warshall algorithm.
+---
 
-Program
-python
+
+<div style="page-break-after: always;"></div>
+
+# Program 37: Finding the Minimum Distance Between Two Vertices Using Floyd–Warshall Algorithm
+
+## Aim
+
+To write a Python program that accepts a weighted graph and two vertices from the user, then displays the minimum distance between the selected vertices using the Floyd–Warshall algorithm.
+
+## Program
+
+```python
 INF = float('inf')
 
 n = int(input("Enter number of vertices: "))
@@ -1524,20 +2027,27 @@ if dist[source][destination] == INF:
     print("No path exists between the vertices.")
 else:
     print("Minimum distance:", int(dist[source][destination]))
-Sample Output
+```
+
 <img width="597" height="221" alt="image" src="https://github.com/user-attachments/assets/c5fd24fc-7b32-495d-8e02-fb3fa7dca14b" />
 
-Back to Index
 
-<a id="program-38"></a>
+[Back to Index](#index)
 
-Program 38: Comparison of Fibonacci Series Using Recursion and Dynamic Programming
-Aim
+---
+
+
+<div style="page-break-after: always;"></div>
+
+# Program 38: Comparison of Fibonacci Series Using Recursion and Dynamic Programming
+
+## Aim
 
 To compare the time and space complexity of generating the Fibonacci series using recursion and dynamic programming.
 
-Program
-python
+## Program
+
+```python
 import matplotlib.pyplot as plt
 
 # Function to calculate Fibonacci using recursion
@@ -1581,20 +2091,29 @@ plt.legend()
 plt.grid(True)
 
 plt.show()
-Sample Output
+
+```
+
 <img width="810" height="435" alt="image" src="https://github.com/user-attachments/assets/c29d197c-d113-420f-b96a-c5e6dcc0b856" />
 
-Back to Index
 
-<a id="program-39"></a>
+[Back to Index](#index)
 
-Program 39: 0/1 Knapsack Problem Using Greedy Algorithm
-Aim
+---
+
+
+<div style="page-break-after: always;"></div>
+
+# Program 39: 0/1 Knapsack Problem Using Greedy Algorithm
+
+## Aim
 
 To implement the Greedy Algorithm in Python to solve the 0/1 Knapsack Problem by selecting complete items based on their profit-to-weight ratio without exceeding the maximum capacity of the knapsack.
 
-Program
-python
+## Program
+
+```python
+
 def greedy_knapsack(weights, profits, capacity):
 
     n = len(weights)
@@ -1604,7 +2123,7 @@ def greedy_knapsack(weights, profits, capacity):
 
     for i in range(n):
         ratio = profits[i] / weights[i]
-        items.append((ratio, weights[i], profits[i], i + 1))
+        items.append((ratio, weights[i], profits[i], i+1))
 
     # Sort by decreasing ratio
     items.sort(reverse=True)
@@ -1635,20 +2154,28 @@ profits = [60, 100, 120]
 capacity = 50
 
 greedy_knapsack(weights, profits, capacity)
-Sample Output
+
+
+```
+
 <img width="456" height="155" alt="image" src="https://github.com/user-attachments/assets/1f505444-94ff-4fc6-b020-1badbedb92ff" />
 
-Back to Index
+[Back to Index](#index)
 
-<a id="program-40"></a>
+---
 
-Program 40: Fractional Knapsack Problem Using Greedy Algorithm
-Aim
+<div style="page-break-after: always;"></div>
+
+# Program 40: Fractional Knapsack Problem Using Greedy Algorithm
+
+## Aim
 
 To implement the Greedy Algorithm in Python to solve the Fractional Knapsack Problem by selecting complete or fractional parts of items based on their profit-to-weight ratio to maximize the total profit within the given capacity.
 
-Program
-python
+## Program
+
+```python
+
 def fractional_knapsack(weights, profits, capacity):
 
     n = len(weights)
@@ -1658,7 +2185,7 @@ def fractional_knapsack(weights, profits, capacity):
 
     for i in range(n):
         ratio = profits[i] / weights[i]
-        items.append((ratio, weights[i], profits[i], i + 1))
+        items.append((ratio, weights[i], profits[i], i+1))
 
     # Sort items by decreasing ratio
     items.sort(reverse=True)
@@ -1713,7 +2240,13 @@ for i in range(n):
 capacity = float(input("Enter knapsack capacity: "))
 
 fractional_knapsack(weights, profits, capacity)
-Sample Output
+
+
+```
+
 <img width="507" height="392" alt="image" src="https://github.com/user-attachments/assets/46d7ecfa-7797-4236-9eeb-9a1fd3565f59" />
 
-Back to Index
+
+[Back to Index](#index)
+
+---
